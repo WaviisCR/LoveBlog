@@ -1,0 +1,30 @@
+/*---HOME PAGE---*/
+
+/*SERVICE AREA */
+.single_service {
+    @include resizex3;
+
+    .fa {
+        color: $red;
+        float: left;
+        margin-right: 2%;
+    }
+}
+
+/*BLOG & WORK AREA*/
+.single_blog_post, .single_work {
+    @include resizex4;
+
+    img {
+        width: 100%;
+        margin-bottom: -1px;
+    }
+
+    .blog_post_meta {
+        @include postbox;
+
+        h4 {
+            color: $red;
+        }
+    }
+}

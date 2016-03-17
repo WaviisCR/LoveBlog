@@ -1,0 +1,38 @@
+@mixin border {
+    border-left: 1em solid $white;
+    border-right: 1em solid $white;
+}
+
+@mixin tittlebox {
+    background-color: $red;
+    margin-bottom: -1%;
+}
+
+@mixin parchepaddings {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@mixin resizex4 {
+    width: 23%;
+    padding: 1%;
+    margin: 1%;
+}
+
+@mixin resizex3 {
+    width: 31%;
+    padding: 1%;
+    margin: 1%;
+}
+
+@mixin postbox {
+    border: 1px solid silver;
+}
+@mixin photo() {
+	background-color:$lightred;
+	border:$red solid 1px;
+	width: 23%;
+    height: 14.5%;
+	float:right;
+	margin: 1%;
+}

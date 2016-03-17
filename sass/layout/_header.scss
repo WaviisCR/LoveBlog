@@ -1,0 +1,40 @@
+/*HEADER*/
+.navbar {
+    font-family: "Helvetica";
+    margin: 0px;
+
+    .navbar-right {
+        padding-top: 1.5em;
+    }
+}
+
+.header_bottom_area {
+    background-color: $lightred;
+    height: 4em;
+}
+
+.main_content_area {
+    position: relative;
+    top: -4em;
+
+    .container {
+        @include parchepaddings;
+    }
+
+    .ei-slider-large img {
+        @include border;
+
+        width: 100%;
+    }
+
+    .tittle {
+        @include tittlebox;
+
+        @include border;
+
+        h1 {
+            margin: 0px;
+            padding: 0.75%;
+        }
+    }
+}

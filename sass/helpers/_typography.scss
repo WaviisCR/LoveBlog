@@ -1,0 +1,19 @@
+/*FONTS*/
+@font-face {
+    font-family: "bebas";
+    src: url(../font/BEBAS___.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(../font/HelveticaNeue.ttf) format("truetype");
+}
+
+/*H FONT*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "bebas";
+}
+
+p, a {
+    font-family: "Helvetica";
+}

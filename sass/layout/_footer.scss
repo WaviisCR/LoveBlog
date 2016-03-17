@@ -1,0 +1,18 @@
+/*FOOTER*/
+footer {
+    background-color: $lightred;
+}
+
+.single_footer_container {
+    background-color: $red;
+
+    @include border;
+
+    .single_footer {
+        @include resizex3();
+    }
+}
+
+.social_area {
+    background: url(../images/social.png) no-repeat;
+}

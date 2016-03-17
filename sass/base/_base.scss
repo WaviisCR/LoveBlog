@@ -1,0 +1,13 @@
+/*COMMON*/
+.from_blog, .from_works, .aside-section {
+    h2 {
+        background: url(../images/heading-bg.png) repeat-x;
+        background-position: 0;
+        color: $red;
+
+        span {
+            background: white;
+            padding-right: 5%;
+        }
+    }
+}
