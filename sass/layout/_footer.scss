@@ -9,7 +9,7 @@ footer {
     @include border;
 
     .single_footer {
-        @include resizex3();
+        @include resizex3;
     }
 }
 
